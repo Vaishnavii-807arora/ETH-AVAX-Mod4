@@ -33,7 +33,7 @@ The contract uses the Ownable module from the OpenZeppelin library, which provid
 The contract utilizes the OpenZeppelin library, which is a collection of reusable smart contracts for Ethereum. It imports the following contracts:
 
 * ERC20.sol: This provides the implementation of the ERC-20 standard functions for the token.
-+Ownable.sol: This provides basic access control functionalities, allowing the contract to have an owner with special privileges.
++ Ownable.sol: This provides basic access control functionalities, allowing the contract to have an owner with special privileges.
 - ERC20Burnable.sol: This extends the ERC-20 token to include burning (destroying) of tokens.
 
 ## Security Considerations:
