@@ -32,15 +32,15 @@ The contract uses the Ownable module from the OpenZeppelin library, which provid
 ## OpenZeppelin Library:
 The contract utilizes the OpenZeppelin library, which is a collection of reusable smart contracts for Ethereum. It imports the following contracts:
 
-*ERC20.sol: This provides the implementation of the ERC-20 standard functions for the token.
--Ownable.sol: This provides basic access control functionalities, allowing the contract to have an owner with special privileges.
-+ERC20Burnable.sol: This extends the ERC-20 token to include burning (destroying) of tokens.
+* ERC20.sol: This provides the implementation of the ERC-20 standard functions for the token.
++Ownable.sol: This provides basic access control functionalities, allowing the contract to have an owner with special privileges.
+- ERC20Burnable.sol: This extends the ERC-20 token to include burning (destroying) of tokens.
 
 ## Security Considerations:
 
-*The contract owner should be a trusted entity, as they have control over the minting function, which can increase the token supply. Ensure the contract is deployed by a reputable entity.
-+The approve function should be used carefully, and users should be aware of the amount they approve for spending by the contract to avoid potential misuse.
--Smart contract upgrades and changes should be handled carefully, considering the impact on existing token holders and gaming applications using DGN.
+* The contract owner should be a trusted entity, as they have control over the minting function, which can increase the token supply. Ensure the contract is deployed by a reputable entity.
++ The approve function should be used carefully, and users should be aware of the amount they approve for spending by the contract to avoid potential misuse.
+- Smart contract upgrades and changes should be handled carefully, considering the impact on existing token holders and gaming applications using DGN.
 
 ## Author
 Vaishnavi Arora
