@@ -5,9 +5,9 @@ The Degen Gaming Token (DGN) is an ERC-20 standard token implemented on the Ethe
 
 ## Token Information:
 
-*Token Name: Degen Gaming Token
-+Symbol: DGN
--Decimals: 0
+* Token Name: Degen Gaming Token
++ Symbol: DGN
+- Decimals: 0
 
 ## Smart Contract Features:
 
