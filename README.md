@@ -46,5 +46,4 @@ The contract utilizes the OpenZeppelin library, which is a collection of reusabl
 Vaishnavi Arora
 
 ## License
-This contract is licensed under the MIT License. SPDX-License-Identifier: MIT. loom video link,
-https://www.loom.com/share/25cd9aa01d4b4065bc979eb5528a0165?sid=294edb41-b1fb-47bb-b341-739db043a647
+This contract is licensed under the MIT License. SPDX-License-Identifier: MIT. 
